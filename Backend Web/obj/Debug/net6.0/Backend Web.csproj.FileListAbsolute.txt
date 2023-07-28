@@ -1,0 +1,92 @@
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\appsettings.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.staticwebassets.runtime.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.exe
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.deps.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.runtimeconfig.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.pdb
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\DnsClient.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\Snappier.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\frano\source\repos\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.AssemblyReference.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.AssemblyInfoInputs.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.AssemblyInfo.cs
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.CoreCompileInputs.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.RazorAssemblyInfo.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.RazorAssemblyInfo.cs
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.Backend Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend Web.props
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend Web.props
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend Web.props
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\bundle\Backend Web.styles.css
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\projectbundle\Backend Web.bundle.scp.css
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.CopyComplete
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\refint\Backend Web.dll
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.pdb
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.genruntimeconfig.cache
+C:\Users\frano\source\repos\Backend Web\Backend Web\obj\Debug\net6.0\ref\Backend Web.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\appsettings.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.staticwebassets.runtime.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.exe
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.deps.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.runtimeconfig.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Backend Web.pdb
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\DnsClient.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\Snappier.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.AssemblyReference.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.AssemblyInfoInputs.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.AssemblyInfo.cs
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.CoreCompileInputs.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.RazorAssemblyInfo.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.RazorAssemblyInfo.cs
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.Backend Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend Web.props
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend Web.props
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend Web.props
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\bundle\Backend Web.styles.css
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\scopedcss\projectbundle\Backend Web.bundle.scp.css
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.csproj.CopyComplete
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\refint\Backend Web.dll
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.pdb
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\Backend Web.genruntimeconfig.cache
+C:\Users\frano\OneDrive\Desktop\Fullstack\project 2\Backend Web\Backend Web\obj\Debug\net6.0\ref\Backend Web.dll
