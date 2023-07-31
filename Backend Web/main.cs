@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +21,8 @@ namespace YourNamespace
     {
         private readonly IConfiguration _configuration;
         private IMongoCollection<Complaint>? _complaints;
+        private IMongoCollection<User>? _users;
+
 
         public Startup(IConfiguration configuration)
         {
@@ -45,7 +47,10 @@ namespace YourNamespace
             var dbClient = new MongoClient("mongodb://127.0.0.1:27017");
             var mongoDatabase = dbClient.GetDatabase("complaints");
             _complaints = mongoDatabase.GetCollection<Complaint>("complaints");
+            _users = mongoDatabase.GetCollection<User>("users");
             services.AddSingleton<IMongoCollection<Complaint>>(_complaints);
+            services.AddSingleton<IMongoCollection<User>>(_users);
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -81,6 +86,26 @@ namespace YourNamespace
 
         [BsonElement("__v")]
         public int? V { get; set; }
+    }
+    public class User
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        [BsonElement("_id")]
+        public ObjectId? Id { get; set; }
+
+        [BsonElement("fullname")]
+        public string? FullName { get; set; }
+
+        [BsonElement("username")]
+        public string? UserName { get; set; }
+
+        [BsonElement("email")]
+        public string? Email { get; set; }
+
+        [BsonElement("password")]
+        public string? Password { get; set; }
+
     }
 
     [ApiController]
@@ -144,6 +169,75 @@ namespace YourNamespace
                 return NotFound();
             }
             return NoContent();
+        }
+    }
+
+    [ApiController]
+    public class UsersController : ControllerBase
+    {
+        private readonly IMongoCollection<User> _users;
+
+        public UsersController(IMongoCollection<User> users)
+        {
+            _users = users;
+        }
+
+        [HttpGet("/users")]
+        public async Task<IActionResult> GetUsers()
+        {
+            var filter = Builders<User>.Filter.Empty;
+            var users = await _users.Find(filter).ToListAsync();
+            return Ok(users);
+        }
+
+        [HttpGet("/users/{userId}")]
+        public async Task<IActionResult> GetUserById(string userId)
+        {
+            var filter = Builders<User>.Filter.Eq(c => c.Id, ObjectId.Parse(userId));
+            var user = await _users.Find(filter).FirstOrDefaultAsync();
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return Ok(user);
+        }
+
+        [HttpPost("/users")]
+        public async Task<IActionResult> CreateUser([FromBody] User user)
+        {
+            if (string.IsNullOrWhiteSpace(user?.FullName) || string.IsNullOrWhiteSpace(user?.UserName) || string.IsNullOrWhiteSpace(user?.Email) || string.IsNullOrWhiteSpace(user?.Password))
+            {
+                return BadRequest();
+            }
+            user.Id = ObjectId.GenerateNewId();
+            await _users.InsertOneAsync(user);
+            return Ok(user);
+        }
+
+        [HttpDelete("/users/{userId}")]
+        public async Task<IActionResult> DeleteUserById(string userId)
+        {
+            var filter = Builders<User>.Filter.Eq(c => c.Id, ObjectId.Parse(userId));
+            var result = await _users.DeleteOneAsync(filter);
+            if (result.DeletedCount == 0)
+            {
+                return NotFound();
+            }
+            return NoContent();
+        }
+        [HttpGet("/users/{email}/{password}")]
+        public async Task<IActionResult> CheckIfUserExists(string email, string password)
+        {
+            var filter = Builders<User>.Filter.And(
+                Builders<User>.Filter.Eq(u => u.Email, email),
+                Builders<User>.Filter.Eq(u => u.Password, password)
+            );
+            var user = await _users.Find(filter).FirstOrDefaultAsync();
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return Ok(user);
         }
     }
 }
