@@ -190,7 +190,7 @@ namespace YourNamespace
             return Ok(users);
         }
 
-        [HttpGet("/users/{userId}")]
+        /* [HttpGet("/users/{userId}")]
         public async Task<IActionResult> GetUserById(string userId)
         {
             var filter = Builders<User>.Filter.Eq(c => c.Id, ObjectId.Parse(userId));
@@ -200,7 +200,7 @@ namespace YourNamespace
                 return NotFound();
             }
             return Ok(user);
-        }
+        }*/
 
         [HttpPost("/users")]
         public async Task<IActionResult> CreateUser([FromBody] User user)
@@ -214,10 +214,10 @@ namespace YourNamespace
             return Ok(user);
         }
 
-        [HttpDelete("/users/{userId}")]
-        public async Task<IActionResult> DeleteUserById(string userId)
+        [HttpDelete("/users/delete/{email}")]
+        public async Task<IActionResult> DeleteUserByEmail(string email)
         {
-            var filter = Builders<User>.Filter.Eq(c => c.Id, ObjectId.Parse(userId));
+            var filter = Builders<User>.Filter.Eq(u => u.Email, email);
             var result = await _users.DeleteOneAsync(filter);
             if (result.DeletedCount == 0)
             {
@@ -225,6 +225,7 @@ namespace YourNamespace
             }
             return NoContent();
         }
+
         [HttpGet("/users/{email}/{password}")]
         public async Task<IActionResult> CheckIfUserExists(string email, string password)
         {
@@ -232,6 +233,17 @@ namespace YourNamespace
                 Builders<User>.Filter.Eq(u => u.Email, email),
                 Builders<User>.Filter.Eq(u => u.Password, password)
             );
+            var user = await _users.Find(filter).FirstOrDefaultAsync();
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return Ok(user);
+        }
+        [HttpGet("/users/{email}")]
+        public async Task<IActionResult> CheckIfEmailExists(string email)
+        {
+            var filter = Builders<User>.Filter.Eq(u => u.Email, email);
             var user = await _users.Find(filter).FirstOrDefaultAsync();
             if (user == null)
             {
