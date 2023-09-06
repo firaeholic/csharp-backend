@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frano\\OneDrive\\Desktop\\Fullstack\\project 2\\Backend Web\\Backend Web\\Backend Web.csproj": {}
+    "C:\\Users\\frano\\OneDrive\\Desktop\\Git\\fullstack-cs-angular\\Backend Web\\Backend Web\\Backend Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frano\\OneDrive\\Desktop\\Fullstack\\project 2\\Backend Web\\Backend Web\\Backend Web.csproj": {
+    "C:\\Users\\frano\\OneDrive\\Desktop\\Git\\fullstack-cs-angular\\Backend Web\\Backend Web\\Backend Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frano\\OneDrive\\Desktop\\Fullstack\\project 2\\Backend Web\\Backend Web\\Backend Web.csproj",
+        "projectUniqueName": "C:\\Users\\frano\\OneDrive\\Desktop\\Git\\fullstack-cs-angular\\Backend Web\\Backend Web\\Backend Web.csproj",
         "projectName": "Backend Web",
-        "projectPath": "C:\\Users\\frano\\OneDrive\\Desktop\\Fullstack\\project 2\\Backend Web\\Backend Web\\Backend Web.csproj",
+        "projectPath": "C:\\Users\\frano\\OneDrive\\Desktop\\Git\\fullstack-cs-angular\\Backend Web\\Backend Web\\Backend Web.csproj",
         "packagesPath": "C:\\Users\\frano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frano\\OneDrive\\Desktop\\Fullstack\\project 2\\Backend Web\\Backend Web\\obj\\",
+        "outputPath": "C:\\Users\\frano\\OneDrive\\Desktop\\Git\\fullstack-cs-angular\\Backend Web\\Backend Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.20.0, )"
